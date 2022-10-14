@@ -4,20 +4,21 @@ package lab;
  * initialized the emp name & emp Id for 5 Emp. now write another class having name 
  * and from this class you have to create 5 employee objects but you are not allowed to use new keyword.
  * */
-public class Employee1 {
+class Employee2 {
 	static String emp_name;
 	static int emp_Id;
-	static void create(int id,String name) {
-		emp_name=name;
+	static void create(int id,String name){
 		emp_Id=id;
+		emp_name=name;
+		System.out.println(emp_Id+" "+emp_name);
 	}
 	}
-class Employee2{
+class Employee1{
 	public static void main(String [] args) {
-		Employee1.create(123,"Hrangchal");
-		Employee1.create(124,"Atif");
-		Employee1.create(125,"Reuben");
-		Employee1.create(126,"Michael");
-		Employee1.create(127,"Peso");
+		Employee2.create(123,"Hrangchal");
+		Employee2.create(124,"Atif");
+		Employee2.create(125,"Reuben");
+		Employee2.create(126,"Michael");
+		Employee2.create(127,"Peso");
 	}
 }
