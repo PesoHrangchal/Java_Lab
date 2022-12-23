@@ -1,3 +1,4 @@
+#Lab Assignment-4
 use lab_db;
 
 #1.Creating Coustomer table with Cust_id as primary key
